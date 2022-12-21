@@ -17,6 +17,9 @@ img {
     display: flex;
 }
 
+ul {
+    list-style-type:none ;
+}
 
     
 /****************************
@@ -55,6 +58,9 @@ REGOLE HEADER
 REGOLE MAIN
 *************************/
 
+/* 
+Prima conteiner
+*/
 
 .conteiner-background {
     background-color: rgb(180,208,231);
@@ -83,6 +89,58 @@ REGOLE MAIN
     padding-top: 45px;
     font-size: 30px;
 }
+
+/* 
+secondo conteiner
+*/
+
+.conteiner-title,.conteiner-table {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.row-title-table {
+    font-size: 20px;
+
+}
+
+.col-table {
+    border: 1px solid #c9c8c8;
+}
+
+.col-table > .intestazione,
+.corpo,
+.end-table{
+    padding: 15px 0;
+}
+
+.col-table > h4{
+    text-align: center;
+    border-bottom: 1px solid #c9c8c8;
+}
+
+.col-table h2,
+strong,p,li {
+    padding: 10px 20px;
+    
+}
+
+.end-table > strong {
+    display: inline-block;
+}
+
+.btn-table {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
 
 
 
