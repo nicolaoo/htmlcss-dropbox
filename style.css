@@ -51,24 +51,38 @@ REGOLE HEADER
 
 
 
-
-
-
-
 /****************************
 REGOLE MAIN
 *************************/
 
 
+.conteiner-background {
+    background-color: rgb(180,208,231);
+}
 
+.conteiner-first {
+    width: 800px;
+    margin: 0 auto;
+}
 
+.row-title {
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
 
+.row-first {
+    justify-content: center;
+}
 
+.btn {
+    margin: 20px 0;
+}
 
-
-
-
-
+.arrow {
+    padding-top: 45px;
+    font-size: 30px;
+}
 
 
 
