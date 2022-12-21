@@ -1,0 +1,81 @@
+/****************************
+REGOLE GENERALI
+*************************/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+
+    
+/****************************
+REGOLE HEADER
+*************************/
+
+
+.col-header {
+    display: flex;
+    align-items:center;
+}
+
+.row-header {
+    justify-content: space-between;
+}
+
+.conteiner-nav {
+    padding: 20px 10px ;
+}
+
+.col-header p {
+    padding: 0 15px;
+}
+
+.btn-blu {
+    background-color: rgb(0,97,255);
+    padding: 5px 10px;
+    border: none;
+    color: white;
+
+}
+
+
+
+
+
+
+
+/****************************
+REGOLE MAIN
+*************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************
+REGOLE FOOTER
+*************************/
