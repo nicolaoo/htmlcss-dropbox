@@ -27,6 +27,11 @@ ul {
     list-style-type:none ;
 }
 
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
     
 /****************************
 REGOLE HEADER
@@ -61,11 +66,7 @@ REGOLE HEADER
     padding: 10px 25px;
 }
 
-.conteiner {
-    max-width: 1000px;
-    margin: 0 auto;
 
-}
 /****************************
 REGOLE MAIN
 *************************/
@@ -113,10 +114,8 @@ Primo conteiner
 
 
 /* 
-secondo conteiner
+seconda section: card
 */
-
-
 
 .row-title-table {
     font-size: 20px;
@@ -246,7 +245,7 @@ secondo conteiner
 
 
 /* 
-terza section
+terza section: partner
 */
 
 .conteiner-partner {
@@ -270,6 +269,46 @@ terza section
 .col-partner > p {
     padding: 20px 0;
 }
+
+/* 
+quarta section: operetion
+*/
+
+.row-operetion__title {
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.row-operetion__card {
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.col-operetion > h2 {
+    padding: 25px 0;
+}
+
+.col-operetion{
+    flex-basis: 30%;
+}
+
+.col-operetion-utility {
+    font-size: 30px;
+    padding-top: 200px;
+}
+
+.row-operetion {
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+
+
+
 
 
 
