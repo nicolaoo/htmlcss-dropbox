@@ -108,7 +108,7 @@ secondo conteiner
 
 .col-table {
     border: 1px solid #c9c8c8;
-    min-width: 270px;
+    width: 255px;
 }
 
 .col-table > h4{
@@ -124,7 +124,7 @@ secondo conteiner
 
 .title-space {
     text-align: center;
-    padding: 15px 0 15px 0px;
+    padding: 10px 0 10px 0px;
     border-bottom: 1px solid #c9c8c8;;
 }
 
@@ -148,7 +148,8 @@ secondo conteiner
 }
 
 .row-table-two {
-    flex-grow: calc( 100% / 3 );
+    flex-basis: calc( 100% / 3 );
+    flex-wrap: wrap;
 }
 
 .col-margin {
@@ -186,7 +187,12 @@ secondo conteiner
     margin: 20px 0 30px 12px;
 }
 
-
+.col-table-orizontal {
+    width: 795px;
+    border: 1px solid black;
+    height: 152px;
+    margin-top: 15px;
+}
 
 
 
