@@ -317,6 +317,10 @@ quarta section: operetion
     Quinta section: designit
 */
 
+.table-designit {
+    margin: 100px 0;
+}
+
 .col {
     display: flex;
 }
@@ -350,9 +354,30 @@ quarta section: operetion
 }
 
 .row-designit {
-    flex-basis: calc(100%/3);
+    width: calc(100%/3);
     flex-wrap: wrap;
 }
+
+.row-center-designit {
+    padding: 25px; 
+    flex-direction: column;
+    gap: 25px;
+    background-color: #d2d2d2;
+}
+
+.col-p-designit{
+    gap: 20px;
+}
+
+.col-p-designit {
+    flex-direction: column;
+    
+}
+
+.row-center-designit h1{
+    font-size: 40px;
+}
+
 
 .col-designit {
     flex-basis: 50%;
@@ -361,10 +386,62 @@ quarta section: operetion
     justify-content: center;
 }
 
-.col-designit img {
-    width: 150px;
-    color: white;
+.conteiner-last-designit {
+    background-color: #7baab4;
+    padding: 80px;
 }
+
+.row-last-designit {
+    justify-content: center;
+}
+
+.col-last-designit {
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.col-last-designit h1 {
+    font-size: 50px;
+    color: rebeccapurple;
+}
+
+.col-button-last {
+    align-items: center;
+}
+
+.col-title-designit {
+    flex-direction: column;
+}
+
+
+/* Quinta section: domande frequenti */
+
+.row-answer {
+    flex-direction: column;
+    gap: 70px;
+}
+
+.col-answer > h1 {
+    font-size: 40px;
+}
+
+.col-answer > i,p {
+    font-size: 20px;
+}
+
+.col-answer {
+    justify-content:space-between;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
