@@ -112,6 +112,19 @@ Primo conteiner
     flex-basis: 70%;
 }
 
+.circle {
+    border-radius: 245px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid dodgerblue;
+    border-width: 5px;
+}
+
+.display {
+    display: inline-block;
+    padding-right: 40px;
+}
 
 /* 
 seconda section: card
@@ -179,10 +192,7 @@ seconda section: card
     margin: 0 15px;
 }
 
-.display {
-    display: inline-block;
 
-}
 
 .col-undertitle{
     padding: 40px 0;
@@ -303,12 +313,58 @@ quarta section: operetion
     gap: 30px;
 }
 
+/* 
+    Quinta section: designit
+*/
 
+.col {
+    display: flex;
+}
 
+.col-green {
+    background-color: green;
+}
 
+.col-purple {
+    background-color: purple;
+}
 
+.col-azure {
+    background-color: rgb(21, 204, 204);
+}
 
+.col-red {
+    background-color: red;
+}
 
+.col-blue {
+    background-color: blue;
+}
+
+.col-jellow {
+    background-color: rgb(255, 243, 19);
+}
+
+.conteiner-designit {
+    display: flex;
+}
+
+.row-designit {
+    flex-basis: calc(100%/3);
+    flex-wrap: wrap;
+}
+
+.col-designit {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-designit img {
+    width: 150px;
+    color: white;
+}
 
 
 
