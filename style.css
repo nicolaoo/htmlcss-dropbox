@@ -353,6 +353,10 @@ quarta section: operetion
     display: flex;
 }
 
+.row-designit figure{
+    flex-basis: 50%;
+}
+
 .row-designit {
     width: calc(100%/3);
     flex-wrap: wrap;
@@ -367,17 +371,16 @@ quarta section: operetion
 
 .col-p-designit{
     gap: 20px;
+    flex-direction: column;
 }
 
-.col-p-designit {
-    flex-direction: column;
-    
+.col-under-designit {
+    align-items: baseline;
 }
 
 .row-center-designit h1{
     font-size: 40px;
 }
-
 
 .col-designit {
     flex-basis: 50%;
@@ -418,10 +421,10 @@ quarta section: operetion
 
 .row-answer {
     flex-direction: column;
-    gap: 70px;
+    gap: 55px;
 }
 
-.col-answer > h1 {
+.col-answer-title > h1 {
     font-size: 40px;
 }
 
@@ -431,6 +434,62 @@ quarta section: operetion
 
 .col-answer {
     justify-content:space-between;
+    display: flex;
+}
+
+.col-answer-top {
+    border-top: 1px solid black;
+    padding-top: 50px;
+}
+
+.col-answer-center {
+    border: 1px solid black;
+    padding: 50px 0;
+    border-left: none;
+    border-right: none;
+}
+
+.col-answer-bottom {
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+
+
+
+/****************************
+REGOLE FOOTER
+*************************/
+
+.foot {
+    background-color: black;
+    margin-top: 150px;
+}
+
+.col-foot h1,li {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.col-foot h1 {
+    padding-bottom: 20px;
+}
+
+.row-footer {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 40px 0;
+}
+
+.col-world {
+    color: white;
+    padding-top: 50px;
+    border-top: 1px solid white;
+    width: 140px;
+}
+
+.col-world > span {
+    padding: 0 5px;
 }
 
 
@@ -444,7 +503,3 @@ quarta section: operetion
 
 
 
-
-/****************************
-REGOLE FOOTER
-*************************/
