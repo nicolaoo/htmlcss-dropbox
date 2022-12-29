@@ -318,7 +318,7 @@ quarta section: operetion
 */
 
 .table-designit {
-    margin: 100px 0;
+    margin: 160px 0;
 }
 
 .col {
@@ -326,31 +326,32 @@ quarta section: operetion
 }
 
 .col-green {
-    background-color: green;
+    background-color: rgb(162,211,155);
 }
 
 .col-purple {
-    background-color: purple;
+    background-color: rgb(97,8,43);
 }
 
 .col-azure {
-    background-color: rgb(21, 204, 204);
+    background-color: rgb(0,147,206);
 }
 
 .col-red {
-    background-color: red;
+    background-color: rgb(255,28,28);
 }
 
 .col-blue {
-    background-color: blue;
+    background-color: rgb(13,36,129);
 }
 
 .col-jellow {
-    background-color: rgb(255, 243, 19);
+    background-color: rgb(255,216,48);
 }
 
 .conteiner-designit {
     display: flex;
+    height: 540px;
 }
 
 .row-designit figure{
@@ -363,10 +364,10 @@ quarta section: operetion
 }
 
 .row-center-designit {
-    padding: 25px; 
+    padding: 50px; 
     flex-direction: column;
-    gap: 25px;
-    background-color: #d2d2d2;
+    gap: 50px;
+    background-color: rgb(245,245,245);
 }
 
 .col-p-designit{
@@ -382,38 +383,49 @@ quarta section: operetion
     font-size: 40px;
 }
 
+.col-title-designit {
+    flex-direction: column;
+}
+
 .col-designit {
     flex-basis: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 50%;
 }
 
 .conteiner-last-designit {
-    background-color: #7baab4;
-    padding: 80px;
+    background-color: rgb(180,208,231);
+    padding: 100px 370px;
 }
 
 .row-last-designit {
     justify-content: center;
+    gap: 200px;
 }
 
 .col-last-designit {
     flex-basis: 50%;
     align-items: center;
+    
 }
 
 .col-last-designit h1 {
     font-size: 50px;
-    color: rebeccapurple;
+    color:  rgb(97,8,43);
 }
 
 .col-button-last {
     align-items: center;
 }
 
-.col-title-designit {
-    flex-direction: column;
+
+.btn-designit {
+    padding: 15px 60px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
 }
 
 
@@ -465,13 +477,14 @@ REGOLE FOOTER
     margin-top: 150px;
 }
 
-.col-foot h1,li {
+.col-foot li {
     color: white;
     padding-bottom: 5px;
 }
 
 .col-foot h1 {
     padding-bottom: 20px;
+    color: white;
 }
 
 .row-footer {
